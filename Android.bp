@@ -17,3 +17,13 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "MiuiScanner",
+	owner: "MiuiScanner",
+	apk: "proprietary/system/priv-app/MiuiScanner/MiuiScanner.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}

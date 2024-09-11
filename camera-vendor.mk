@@ -13,4 +13,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    MiuiCamera \
+    MiuiScanner
