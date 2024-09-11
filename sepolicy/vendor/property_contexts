@@ -1,2 +1,4 @@
 # Camera
-persist.vendor.low.cutoff          u:object_r:vendor_camera_prop:s0
+persist.vendor.low.cutoff			u:object_r:vendor_camera_prop:s0
+vendor.camera.skip_unconfigure.packagelist      u:object_r:vendor_camera_prop:s0
+
