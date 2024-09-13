@@ -17,6 +17,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.miui.notch=1 \
     ro.product.mod_device=umi
 
+# Overlay
+PRODUCT_PACKAGES += \
+	MiuiCameraOverlayMi10
+
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/xiaomi/camera/sepolicy/vendor

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- add values using: <bool name=""></bool> -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- Smart Suggestions - fixes photomode -->
+	<bool name="pref_scan_qrcode_default">true</bool>
+	
+	<!-- hide Universal settings button -->
+	<bool name="hide_universal_settings">true</bool>
+
+	<!-- hide some experimental functions from users -->
+	<bool name="hide_expert_mode">true</bool>
+
+</resources>
+
