@@ -15,7 +15,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera \
     ro.com.google.lens.oem_camera_package=com.android.camera \
     ro.miui.notch=1 \
-    ro.product.mod_device=umi
+    ro.product.mod_device=${TARGET_DEVICE}
 
 # Overlay
 PRODUCT_PACKAGES += \
