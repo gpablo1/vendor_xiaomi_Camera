@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "MiuiCameraOverlayMi10Pro",
+    name: "MiuiCameraOverlayMi10",
     product_specific: true,
 }
 
