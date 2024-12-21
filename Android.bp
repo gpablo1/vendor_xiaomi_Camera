@@ -27,3 +27,53 @@ android_app_import {
 	},
 	privileged: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libcamera_mianode_jni_xiaomi",
+    srcs: ["proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+    compile_multilib: "64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libgui_xiaomi",
+    srcs: ["proprietary/system/lib64/libgui-xiaomi.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+    compile_multilib: "64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libmicampostproc_client",
+    srcs: ["proprietary/system/lib64/libmicampostproc_client.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+    compile_multilib: "64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_algoup_jni_xiaomi",
+    srcs: ["proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+    compile_multilib: "64",
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor_xiaomi_hardware_campostproc_1_0",
+    srcs: ["proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+    compile_multilib: "64",
+}
