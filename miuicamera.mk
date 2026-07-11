@@ -20,7 +20,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Overlay
 PRODUCT_PACKAGES += \
 	MiuiCameraOverlayMi10 \
-	vendor_xiaomi_hardware_campostproc_1_0
+	vendor_xiaomi_hardware_campostproc_1_0 \
+    libgui-xiaomi \
+    libmicampostproc_client
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
