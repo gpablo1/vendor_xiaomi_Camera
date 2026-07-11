@@ -35,7 +35,6 @@ cc_prebuilt_library_shared {
     ],
     stem: "vendor.xiaomi.hardware.campostproc@1.0",
     compile_multilib: "64",
-    system_specific: true,
     strip: {
         none: true,
     },
