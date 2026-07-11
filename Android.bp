@@ -41,3 +41,29 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     prefer: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libgui-xiaomi",
+    srcs: [
+        "proprietary/system/lib64/libgui-xiaomi.so",
+    ],
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmicampostproc_client",
+    srcs: [
+        "proprietary/system/lib64/libmicampostproc_client.so",
+    ],
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
