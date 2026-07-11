@@ -22,7 +22,9 @@ PRODUCT_PACKAGES += \
 	MiuiCameraOverlayMi10 \
 	vendor_xiaomi_hardware_campostproc_1_0 \
     libgui-xiaomi \
-    libmicampostproc_client
+    libmicampostproc_client \
+    libcamera_algoup_jni_xiaomi \
+    libcamera_mianode_jni_xiaomi
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
