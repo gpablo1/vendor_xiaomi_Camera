@@ -67,3 +67,31 @@ cc_prebuilt_library_shared {
     check_elf_files: false,
     prefer: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libcamera_algoup_jni_xiaomi",
+    srcs: [
+        "proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so",
+    ],
+    stem: "libcamera_algoup_jni.xiaomi",
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_mianode_jni_xiaomi",
+    srcs: [
+        "proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so",
+    ],
+    stem: "libcamera_mianode_jni.xiaomi",
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
