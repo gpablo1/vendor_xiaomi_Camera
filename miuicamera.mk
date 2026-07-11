@@ -19,7 +19,8 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-	MiuiCameraOverlayMi10
+	MiuiCameraOverlayMi10 \
+	vendor_xiaomi_hardware_campostproc_1_0
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
