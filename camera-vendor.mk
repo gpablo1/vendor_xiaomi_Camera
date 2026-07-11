@@ -5,11 +5,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/miuicamera-sm8250
 
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/miuicamera-sm8250/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
-    vendor/xiaomi/miuicamera-sm8250/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so 
-
-
 PRODUCT_PACKAGES += \
     MiuiCamera \
     MiuiScanner
