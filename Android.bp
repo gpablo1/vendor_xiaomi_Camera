@@ -27,3 +27,18 @@ android_app_import {
 	},
 	privileged: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "vendor_xiaomi_hardware_campostproc_1_0",
+    srcs: [
+        "proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so",
+    ],
+    stem: "vendor.xiaomi.hardware.campostproc@1.0",
+    compile_multilib: "64",
+    system_specific: true,
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+    prefer: true,
+}
