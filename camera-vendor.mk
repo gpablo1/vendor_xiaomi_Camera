@@ -7,4 +7,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     MiuiCamera \
-    MiuiScanner
+    MiuiScanner \
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
+    libgui-xiaomi \
+    libmicampostproc_client \
+    vendor.xiaomi.hardware.campostproc@1.0_system
